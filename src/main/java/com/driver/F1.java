@@ -47,7 +47,7 @@ public class F1 extends Car {
         }
 
         if(newSpeed > 0) {
-            super.move(newSpeed, getCurrentDirection());
+            super.changeSpeed(newSpeed, getCurrentDirection());
         }
     }
 }
